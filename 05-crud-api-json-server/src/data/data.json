@@ -1,0 +1,171 @@
+{
+  "prodcutos": [
+    {
+      "id": "1",
+      "nombre": "Producto 1",
+      "descripcion": "Producto de alta calidad",
+      "precio": 100,
+      "stock": 100,
+      "imagen": "",
+      "categoria": "Categoria 2"
+    },
+    {
+      "id": "2",
+      "nombre": "Producto 2",
+      "descripcion": "Producto de alta calidad",
+      "precio": 100,
+      "stock": 100,
+      "imagen": "",
+      "categoria": "Categoria 1"
+    },
+    {
+      "id": "3",
+      "nombre": "Producto 3",
+      "descripcion": "Producto de alta calidad",
+      "precio": 100,
+      "stock": 100,
+      "imagen": "",
+      "categoria": "Categoria 2"
+    },
+    {
+      "id": "4",
+      "nombre": "Producto 4",
+      "descripcion": "Producto de alta calidad",
+      "precio": 100,
+      "stock": 100,
+      "imagen": "",
+      "categoria": "Categoria 1"
+    },
+    {
+      "id": "6",
+      "nombre": "Producto 6",
+      "descripcion": "Producto de alta calidad",
+      "precio": 100,
+      "stock": 100,
+      "imagen": "",
+      "categoria": "Categoria 3"
+    },
+    {
+      "id": "7",
+      "nombre": "Producto 6",
+      "descripcion": "Producto de alta calidad",
+      "precio": 100,
+      "stock": 100,
+      "imagen": "",
+      "categoria": "Categoria 3"
+    },
+    {
+      "id": "7",
+      "nombre": "Producto 7",
+      "descripcion": "Producto de alta calidad",
+      "precio": 100,
+      "stock": 100,
+      "imagen": "",
+      "categoria": "Categoria 3"
+    },
+    {
+      "id": "7",
+      "nombre": "Producto 7",
+      "descripcion": "Producto de alta calidad",
+      "precio": 100,
+      "stock": 100,
+      "imagen": "",
+      "categoria": "Categoria 2"
+    },
+    {
+      "id": "8",
+      "nombre": "Producto 8",
+      "descripcion": "Producto de alta calidad",
+      "precio": 100,
+      "stock": 100,
+      "imagen": "",
+      "categoria": "Categoria 2"
+    },
+    {
+      "id": "9",
+      "nombre": "Producto 8",
+      "descripcion": "Producto de alta calidad",
+      "precio": 100,
+      "stock": 100,
+      "imagen": "",
+      "categoria": "Categoria 7"
+    },
+    {
+      "id": "10",
+      "nombre": "Producto 8",
+      "descripcion": "Producto de alta calidad",
+      "precio": 100,
+      "stock": 100,
+      "imagen": "",
+      "categoria": "Categoria 9"
+    }
+  ],
+  "cateorias": [
+    {
+      "id": "1",
+      "nombre": "Electronica"
+    },
+    {
+      "id": "2",
+      "nombre": "Ropa"
+    }
+  ],
+  "comentarios": [
+    {
+      "id": "1",
+      "usuario": "juan_perez",
+      "comentario": "Excelente producto",
+      "valoracion": 5
+    },
+    {
+      "id": "2",
+      "usuario": "ana_garcia",
+      "comentario": "Muy bueno",
+      "valoracion": 4
+    },
+    {
+      "id": "3",
+      "usuario": "pedro_lopez",
+      "comentario": "Está muy bien",
+      "valoracion": 3
+    }
+  ],
+  "historialPrecios": [
+    {
+      "id": "3582",
+      "productId": 1,
+      "precios": [
+        23,
+        26,
+        21,
+        75,
+        19,
+        99
+      ]
+    },
+    {
+      "id": "4079",
+      "productId": 1,
+      "precios": [
+        23,
+        26,
+        21,
+        75,
+        19,
+        99
+      ]
+    },
+    {
+      "id": "526d",
+      "productId": 1,
+      "precios": [
+        23,
+        26,
+        21,
+        75,
+        19,
+        99
+      ]
+    }
+  ]
+}
