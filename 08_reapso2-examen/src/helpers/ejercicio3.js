@@ -37,14 +37,29 @@ const dataURL = import.meta.env.VITE_DATA_URL;
 // }
 
 export const fetchMultipleResources = async ()=>{
-
-    const [usersRespsonse,commentsResponse,postsResponse]= await Promise.allSettled([
-        fetch(`${dataURL}/users`),
-        fetch(`${dataURL}/comments`),
-        fetch(`${dataURL}/response`)
-    ])
-
-    if(!usersRespsonse.ok || !postsResponse.ok || !commentsResponse.ok){
-        throw new Error("Error al cargar la data");
+    try {
+        const [usersRespsonse,commentsResponse,postsResponse]= await Promise.allSettled([
+            fetch(`${dataURL}/users`),
+            fetch(`${dataURL}/posts`),
+            fetch(`${dataURL}/comments`)
+        ])
+    
+        if(!usersRespsonse.value.ok || !postsResponse.value.ok || !commentsResponse.value.ok){
+            throw new Error("Error al cargar la data");
+        }
+    
+        const dataUsers = await usersRespsonse.value.json();
+        const dataComments = await commentsResponse.value.json();
+        const dataPosts= await postsResponse.value.json();
+    
+        const resourcesMap = new Map();
+        resourcesMap.set("Usuarios",dataUsers);
+        resourcesMap.set("Comments",dataComments);
+        resourcesMap.set("Posts",dataPosts);
+    
+        console.log(resourcesMap);
+    } catch (error) {
+        console.log("Error: ",error);
     }
+
 }
